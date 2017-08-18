@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+.box01, .box02, .box03{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: solid 1px #000;
+}
+
+.container{
+	width: 600px;
+	margin: auto;
+	border: dotted 2px #000;
+	background-color: #f2f2f2;
+	height: 1200px;
+	/*position: relative;*/
+}
+
+.box01{
+	background-color: rgba(217, 41, 93, 0.6);
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.box02{
+	background-color: #296ad9;
+}
+
+.box03{
+	background-color: #d98329;
+}

@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+.box01, .box02, .box03{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: solid 1px #000;
+}
+
+.container{
+	width: 600px;
+	margin: auto;
+	border: dotted 2px #000;
+	background-color: #f2f2f2;
+}
+
+.box01{
+	background-color: #d9295d;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+.box02{
+	background-color: #296ad9;
+	position: relative;
+}
+
+.box03{
+	background-color: #d98329;
+}
